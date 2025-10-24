@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<body>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"> <div class="col-md-3 mb-2 mb-md-0"> <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none"> <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg> </a> </div> <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> <li><a href="pronas.html" class="nav-link px-2 link-secondary">Про нас</a></li> <li><a href="#" class="nav-link px-2">Товари</a></li> <li><a href="#" class="nav-link px-2">Оплата та доставка</a></li> <li><a href="#" class="nav-link px-2">Контакти</a></li> <li><a href="#" class="nav-link px-2">Повернення товару</a></li> </ul> <div class="col-md-3 text-end"> <button type="button" class="btn btn-outline-primary me-2">Login</button> <a href="sing.html" type="button" class="btn btn-primary">Sign-up</a> </div> </header>
+<svg class="bi me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#box-arrow-right"></use></svg>
+<div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary" style="width: 280px;"> <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> <svg class="bi pe-none me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> <span class="fs-4">Вибір асортименту</span> </a> <hr> <ul class="nav nav-pills flex-column mb-auto"> <li class="nav-item"> <a href="#" class="nav-link active" aria-current="page" id="assortiSetsBtn"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#home"></use></svg>
+Набори асорті
+</a> </li> <li> <a href="Assortment sets.html" class="nav-link link-body-emphasis"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#speedometer2"></use></svg>
+Цукерки
+</a> </li> <li> <a href="#" class="nav-link link-body-emphasis"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#table"></use></svg>
+Печиво
+</a> </li> <li> <a href="#" class="nav-link link-body-emphasis"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#grid"></use></svg>
+Подарункові набори
+</a> </li> <li></li> <a href="#" class="nav-link link-body-emphasis"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#people-circle"></use></svg>
+Корисні солодощі
+</a> </li> </ul> <hr> <div class="dropdown">  <ul class="dropdown-menu text-small shadow"> <li><a class="dropdown-item" href="#">New project...</a></li> <li><a class="dropdown-item" href="#">Settings</a></li> <li><a class="dropdown-item" href="#">Profile</a></li> <li><hr class="dropdown-divider"></li> <li><a class="dropdown-item" href="#">Sign out</a></li> </ul> </div> </div>
+
+
+
+    <div class="container px-0">
+      <img 
+        src="https://shop.maria.biz.ua/image/cache/catalog/demo/banners/0-02-05-d9341168bb09d657a04f0c1397ab2953fe1a239d29e50a609973b4a12de4e789_1c6da9a0aac178-1150x400.jpg" 
+        alt="ТМ Марія" 
+        class="img-fluid w-100 rounded"
+        style="max-height:420px; object-fit:cover;"
+      >
+    </div>
+
+
+<section id="assortment-section" class="container my-5">
+  <h2 class="h4 mb-4 text-center">Наш асортимент цукерок</h2>
+
+  <style>
+    #assortment-section .product-card { background:#fff; border-radius:.6rem; box-shadow:0 6px 20px rgba(0,0,0,.06); overflow:hidden; padding:1rem; }
+    #assortment-section .product-card__image img{ width:100%; height:200px; object-fit:cover; display:block; border-radius:.4rem; }
+    #assortment-section .price-per-kg{ color:#aa5b5b; font-weight:700; }
+    #assortment-section .number-spinner button{ min-width:44px; }
+    #assortment-section .variant-btn input{ display:none; }
+    #assortment-section .variant-btn{ cursor:pointer; }
+    #assortment-section .variant-btn.active{ background:#0d6efd; color:#fff; border-color:#0d6efd; }
+  </style>
+
+  <div class="row g-4">
+   
+    <div class="col-md-4">
+      <div class="product-card" id="product_63" data-product-id="63">
+        <div class="product-card__image mb-3">
+          <img src="https://shop.maria.biz.ua/image/cache/catalog/IMG_0836-200x200.PNG" alt="Курага з вишнею і горіхом">
+        </div>
+        <h5 class="mb-1">Курага з вишнею і горіхом</h5>
+        <p class="mb-2 text-success">Є в наявності</p>
+
+        <div class="mb-2">
+          <small class="text-muted">Фасування</small>
+          <div class="btn-group d-flex mt-2" role="group">
+            <div class="variant-btn btn btn-outline-secondary active w-50 text-center" data-price="430.57">
+              <input type="radio" name="opt63" checked>
+              <div>1 кг</div>
+            </div>
+            <div class="variant-btn btn btn-outline-secondary w-50 text-center" data-price="1025.36">
+              <input type="radio" name="opt63">
+              <div>2,5 кг</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <div class="small text-muted">Ціна за 1 кг</div>
+          <div class="price-per-kg" data-price="430.57">430.57 грн</div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <div class="product-qty__total">Сума: <span class="total-value">430.57 грн</span></div>
+          <div class="input-group number-spinner" style="width:130px;">
+            <button class="btn btn-outline-secondary qty-minus" type="button">−</button>
+            <input type="text" class="form-control text-center qty-input" value="1" readonly>
+            <button class="btn btn-outline-secondary qty-plus" type="button">+</button>
+          </div>
+        </div>
+
+        <button class="btn btn-primary w-100">Купити</button>
+      </div>
+    </div>
+
+    
+    <div class="col-md-4">
+      <div class="product-card" id="product_92" data-product-id="92">
+        <div class="product-card__image mb-3">
+          <img src="https://shop.maria.biz.ua/image/cache/catalog/karakum4-400x400-200x200.jpg" alt="Кара-Кум">
+        </div>
+        <h5 class="mb-1">Кара-Кум</h5>
+        <p class="mb-2 text-success">Є в наявності</p>
+
+        <div class="mb-2">
+          <small class="text-muted">Фасування</small>
+          <div class="btn-group d-flex mt-2" role="group">
+            <div class="variant-btn btn btn-outline-secondary active w-50 text-center" data-price="209.01">
+              <input type="radio" name="opt92" checked>
+              <div>1 кг</div>
+            </div>
+            <div class="variant-btn btn btn-outline-secondary w-50 text-center" data-price="495.62">
+              <input type="radio" name="opt92">
+              <div>2,5 кг</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <div class="small text-muted">Ціна за 1 кг</div>
+          <div class="price-per-kg" data-price="209.01">209.01 грн</div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <div class="product-qty__total">Сума: <span class="total-value">209.01 грн</span></div>
+          <div class="input-group number-spinner" style="width:130px;">
+            <button class="btn btn-outline-secondary qty-minus" type="button">−</button>
+            <input type="text" class="form-control text-center qty-input" value="1" readonly>
+            <button class="btn btn-outline-secondary qty-plus" type="button">+</button>
+          </div>
+        </div>
+
+        <button class="btn btn-primary w-100">Купити</button>
+      </div>
+    </div>
+
+    
+    <div class="col-md-4">
+      <div class="product-card" id="product_95" data-product-id="95">
+        <div class="product-card__image mb-3">
+          <img src="https://shop.maria.biz.ua/image/cache/catalog/photo_2022-02-08_10-41-05-200x200.jpg" alt="Kakadu">
+        </div>
+        <h5 class="mb-1">Kakadu</h5>
+        <p class="mb-2 text-success">Є в наявності</p>
+
+        <div class="mb-2">
+          <small class="text-muted">Фасування</small>
+          <div class="btn-group d-flex mt-2" role="group">
+            <div class="variant-btn btn btn-outline-secondary active w-50 text-center" data-price="283.38">
+              <input type="radio" name="opt95" checked>
+              <div>1 кг</div>
+            </div>
+            <div class="variant-btn btn btn-outline-secondary w-50 text-center" data-price="671.00">
+              <input type="radio" name="opt95">
+              <div>2,5 кг</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <div class="small text-muted">Ціна за 1 кг</div>
+          <div class="price-per-kg" data-price="283.38">283.38 грн</div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <div class="product-qty__total">Сума: <span class="total-value">283.38 грн</span></div>
+          <div class="input-group number-spinner" style="width:130px;">
+            <button class="btn btn-outline-secondary qty-minus" type="button">−</button>
+            <input type="text" class="form-control text-center qty-input" value="1" readonly>
+            <button class="btn btn-outline-secondary qty-plus" type="button">+</button>
+          </div>
+        </div>
+
+        <button class="btn btn-primary w-100">Купити</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  
+  (function(){
+    document.querySelectorAll('#assortment-section .product-card').forEach(card=>{
+      const variants = Array.from(card.querySelectorAll('.variant-btn'));
+      const priceEl = card.querySelector('.price-per-kg');
+      const totalEl = card.querySelector('.total-value');
+      const qtyInput = card.querySelector('.qty-input');
+
+      function updatePrice(price){
+        if(priceEl) priceEl.textContent = price.toFixed(2) + ' грн';
+        const qty = Math.max(1, parseInt(qtyInput.value||1));
+        if(totalEl) totalEl.textContent = (price*qty).toFixed(2) + ' грн';
+      }
+
+     
+      variants.forEach(v=>{
+        v.addEventListener('click', ()=>{
+          variants.forEach(x=>x.classList.remove('active'));
+          v.classList.add('active');
+          const price = parseFloat(v.dataset.price) || parseFloat(priceEl.dataset.price) || 0;
+          priceEl.dataset.price = price;
+          updatePrice(price);
+        });
+      });
+
+     
+      card.querySelector('.qty-plus').addEventListener('click', ()=>{
+        qtyInput.value = parseInt(qtyInput.value||1) + 1;
+        updatePrice(parseFloat(priceEl.dataset.price));
+      });
+      card.querySelector('.qty-minus').addEventListener('click', ()=>{
+        qtyInput.value = Math.max(1, parseInt(qtyInput.value||1) - 1);
+        updatePrice(parseFloat(priceEl.dataset.price));
+      });
+
+      
+      updatePrice(parseFloat(card.querySelector('.variant-btn.active').dataset.price || card.querySelector('.price-per-kg').dataset.price));
+    });
+  })();
+</script>
+
+    <footer style="background-color: rgb(237, 60, 11);"class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"> <div class="col mb-3"> <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <p class="text-body-secondary"> <img src="https://shop.maria.biz.ua/image/logo.png" alt="2025" style="position: relative; left: 200px;"></p> </div> <div class="col mb-3"></div> <div class="col mb-3"> <h5>Контакти</h5> <ul class="nav flex-column"> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Viber</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Telegram</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li> </ul> </div> <div class="col mb-3"> <h5>Інформація</h5> <ul class="nav flex-column"> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Про нас</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Оплата та доставка</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Публічна пропозиція</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li> </ul> </div> <div class="col mb-3"> <h5>Додатково</h5> <ul class="nav flex-column"> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Повернення товару</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Акції</a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li> <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li> </ul> </div></footer>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
